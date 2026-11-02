@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" role="img" aria-labelledby="title description">
+  <title id="title">Avatar Odyssey 3D</title>
+  <desc id="description">A cozy low-poly creature adventure beneath a golden evening sky, with a friendly avatar and elemental companions exploring lush biomes, berries, crystals, and a crafted woodland habitat.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#f6bd78"/>
+      <stop offset=".48" stop-color="#e99a76"/>
+      <stop offset="1" stop-color="#735e79"/>
+    </linearGradient>
+    <linearGradient id="titleGlow" x2="1" y2="1">
+      <stop stop-color="#fff5cf"/>
+      <stop offset="1" stop-color="#ffd18c"/>
+    </linearGradient>
+    <linearGradient id="ground" x2=".2" y2="1">
+      <stop stop-color="#537b5b"/>
+      <stop offset="1" stop-color="#244b48"/>
+    </linearGradient>
+    <linearGradient id="river" x2="0" y2="1">
+      <stop stop-color="#9ad6c4"/>
+      <stop offset="1" stop-color="#4f9d99"/>
+    </linearGradient>
+    <radialGradient id="sun">
+      <stop stop-color="#fff4c4"/>
+      <stop offset="1" stop-color="#ffd38d" stop-opacity=".1"/>
+    </radialGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dy="9"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".28"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Evening sky and distant biomes -->
+  <rect width="1600" height="600" fill="url(#sky)"/>
+  <circle cx="1150" cy="170" r="155" fill="url(#sun)" filter="url(#softGlow)"/>
+  <circle cx="1150" cy="170" r="66" fill="#ffe1a5" opacity=".92"/>
+  <path d="M0 286 138 194 228 253 356 139 505 259 650 166 777 263 926 153 1075 258 1226 153 1360 262 1484 184 1600 250V420H0Z" fill="#9c7d80"/>
+  <path d="m0 307 138-113 72 49-41 4 41 25-72-9-33 42-49-16-56 46Zm356-168 75 61-42-9 23 25-61-18-43 35-56-18 83-76Zm294 27 91 97-55-27-48 18-51-26-45 30-45-17 153-75Zm276-13 88 90-52-13-36 19-44-13-40 24-48-25 132-82Zm300 0 85 72-48-13-31 22-38-19-40 29-40-21 112-70Z" fill="#c59a8a" opacity=".7"/>
+  <path d="M0 342q155-80 312-2t313-7q175-83 344 3t335-5q145-61 296 11v132H0Z" fill="#63816f"/>
+  <path d="m0 369 132-42 119 35 108-48 130 44 131-52 128 58 124-49 123 44 121-47 136 52 148-36v167H0Z" fill="#426e60"/>
+  <path d="m0 399 145-36 141 49 111-35 155 43 139-45 133 43 127-40 151 37 136-40 162 47v178H0Z" fill="url(#ground)"/>
+
+  <!-- Tiny sky glints -->
+  <g fill="#fff1d2" opacity=".8">
+    <circle cx="742" cy="100" r="2"/><circle cx="826" cy="147" r="2.5"/><circle cx="1018" cy="86" r="2"/>
+    <circle cx="1326" cy="99" r="2"/><circle cx="1448" cy="153" r="2"/><circle cx="902" cy="76" r="1.5"/>
+  </g>
+
+  <!-- Distant pine silhouettes -->
+  <g opacity=".8">
+    <path d="m929 351 34-103 35 103h-20l35 45h-99l35-45Zm105 8 28-83 30 83h-17l30 40h-84l30-40Zm380-4 38-113 40 113h-24l39 52h-109l40-52Z" fill="#375d54"/>
+    <path d="m1284 369 28-84 30 84h-17l30 40h-84l30-40Zm-243 7 28-84 30 84h-17l30 40h-84l30-40Z" fill="#456d58"/>
+  </g>
+
+  <!-- Curving stream -->
+  <path d="M1110 365c-92 59-57 96 10 126s54 62-29 109H894c122-57 108-87 35-120s-46-76 38-115Z" fill="#315c57" opacity=".55"/>
+  <path d="M1115 360c-91 57-57 94 13 126s54 62-35 114h-83c92-57 87-84 16-116s-49-76 38-124Z" fill="url(#river)"/>
+  <path d="M1085 382c-42 29-43 49-3 72m30 30c32 20 33 33 0 56" fill="none" stroke="#d4ead0" stroke-width="5" stroke-linecap="round" opacity=".58"/>
+
+  <!-- Left-side title panel -->
+  <path d="M0 0h680q-43 108-12 223t-10 179q-29 102 12 198H0Z" fill="#302b3b" opacity=".2"/>
+  <g transform="translate(82 112)">
+    <path d="M0 0h62" stroke="#f8d59b" stroke-width="3" stroke-linecap="round"/>
+    <text x="78" y="6" fill="#ffe6bd" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="4">A WORLD OF LITTLE WONDERS</text>
+    <text x="0" y="95" fill="url(#titleGlow)" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" letter-spacing="-2">Avatar</text>
+    <text x="0" y="163" fill="url(#titleGlow)" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" letter-spacing="-2">Odyssey 3D</text>
+    <path d="M3 189h290" stroke="#f6d298" stroke-width="2" opacity=".8"/>
+    <text x="2" y="221" fill="#fff0d6" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing=".5">Gather, craft, and find your kind of magic.</text>
+    <g transform="translate(2 254)">
+      <rect width="212" height="42" rx="21" fill="#f3c27f"/>
+      <text x="20" y="27" fill="#3c3540" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1">begin your odyssey</text>
+      <path d="m188 16 6 5-6 5" fill="none" stroke="#3c3540" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- Crafted woodland cottage -->
+  <g filter="url(#shadow)" transform="translate(1305 276)">
+    <path d="M0 71 87 8l89 63v98H0Z" fill="#b87953"/>
+    <path d="M-15 76 86-2l105 78-14 17L87 20 0 93Z" fill="#704b4a"/>
+    <path d="m13 70 72-54v44l-72 56Z" fill="#cb9367"/>
+    <path d="m96 18 71 53v45l-71-52Z" fill="#a76b50"/>
+    <path d="M65 107h42v62H65Z" fill="#60464a"/>
+    <path d="M72 115h28v54H72Z" fill="#e9b879"/>
+    <circle cx="94" cy="143" r="2.4" fill="#553e43"/>
+    <path d="M125 86h26v27h-26Z" fill="#f4d18e"/>
+    <path d="M138 86v27m-13-14h26" stroke="#92604c" stroke-width="3"/>
+    <path d="M-8 168h196" stroke="#385d4e" stroke-width="12" stroke-linecap="round"/>
+    <path d="M10 178h39m104 0h30" stroke="#a9b879" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g fill="#e9b879">
+    <circle cx="1396" cy="402" r="4"/><circle cx="1408" cy="402" r="4"/><circle cx="1420" cy="402" r="4"/>
+  </g>
+
+  <!-- Broadleaf canopy -->
+  <g>
+    <path d="M1530 346q-1-58 8-101" fill="none" stroke="#584e4c" stroke-width="19" stroke-linecap="round"/>
+    <path d="M1542 298q-49-55-77-36 5 38 76 47m-26-54q15-64 61-57 13 39-41 72m-13 43q54-48 95-20-10 40-94 41" fill="#568468"/>
+    <path d="M1465 262q27-13 58 32m-9-42q11-35 41-47m-14 103q44-31 73-16" fill="none" stroke="#83a478" stroke-width="4" opacity=".7"/>
+  </g>
+
+  <!-- Crystal cluster -->
+  <g transform="translate(1228 436)">
+    <path d="m0 54 20-67 18 67Z" fill="#9bd1bd"/>
+    <path d="m20-13 0 67h18Z" fill="#65a89c"/>
+    <path d="m39 54 22-93 24 93Z" fill="#b4e0c3"/>
+    <path d="m61-39 2 93h22Z" fill="#76b7a3"/>
+    <path d="m75 54 17-54 19 54Z" fill="#8bc8b1"/>
+    <path d="m21 0 10 39m33-62 4 58m27-26 7 30" stroke="#eff4ce" stroke-width="3" opacity=".8"/>
+    <path d="M-9 56h124" stroke="#3a5f54" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- Berry patch -->
+  <g transform="translate(1088 436)">
+    <path d="M0 71q2-36 30-56m1 56q-1-42 27-66m8 66q7-35 31-48" fill="none" stroke="#567953" stroke-width="5" stroke-linecap="round"/>
+    <path d="M24 37Q0 22-4 8q21-2 34 17m7 4q-5-23 8-37 16 18 2 39m27 14q-1-20 19-30 6 24-12 35" fill="#80a66e"/>
+    <circle cx="1" cy="47" r="8" fill="#d87978"/><circle cx="26" cy="31" r="8" fill="#c95868"/>
+    <circle cx="57" cy="42" r="8" fill="#e17b76"/><circle cx="85" cy="55" r="8" fill="#d65e6c"/>
+    <circle cx="-1" cy="45" r="2" fill="#ffe3a2"/><circle cx="24" cy="29" r="2" fill="#ffe3a2"/>
+    <circle cx="55" cy="40" r="2" fill="#ffe3a2"/><circle cx="83" cy="53" r="2" fill="#ffe3a2"/>
+  </g>
+
+  <!-- Main avatar creature -->
+  <g filter="url(#shadow)" transform="translate(870 335)">
+    <ellipse cx="92" cy="150" rx="104" ry="25" fill="#203d3d" opacity=".38"/>
+    <!-- tail -->
+    <path d="M152 112q61 1 77-41 8-23 28-16-4 45-31 76-31 35-81 19Z" fill="#e6a56f"/>
+    <path d="M226 71q16-14 31-16-4 25-21 41l-23-9Z" fill="#f2c58d"/>
+    <!-- body -->
+    <path d="M34 88Q37 42 89 38q57-4 76 46l11 57q-3 30-36 31H61q-32-3-34-31Z" fill="#d98969"/>
+    <path d="m34 88 55-50-8 50-52 43Zm55-50q53-4 76 46l-31 3Z" fill="#e8a27a"/>
+    <path d="M61 133q28-29 60-22 30 7 39 40-42 29-97 6Z" fill="#f2c99a"/>
+    <!-- ears -->
+    <path d="M49 57 31 5q-3-12 9-7l37 34Zm83-17 24-43q8-11 13 2l-1 52Z" fill="#d98969"/>
+    <path d="m43 10 24 29-18 9Zm113-4-16 31 20 4Z" fill="#f2bd92"/>
+    <!-- feet -->
+    <path d="M49 153q-3 26 21 25 21-1 21-21m32 0q1 23 23 22 22-2 18-27" fill="#b96c5a"/>
+    <!-- face -->
+    <ellipse cx="72" cy="89" rx="5" ry="7" fill="#493943"/>
+    <ellipse cx="132" cy="89" rx="5" ry="7" fill="#493943"/>
+    <path d="M94 101q8 7 16 0" fill="none" stroke="#8c514e" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="57" cy="105" r="8" fill="#e99480" opacity=".75"/><circle cx="146" cy="105" r="8" fill="#e99480" opacity=".75"/>
+    <!-- leaf-shaped travel scarf -->
+    <path d="M48 117q45 18 95 1l14 22q-56 26-110-1Z" fill="#8bb17b"/>
+    <path d="M101 127q22-25 37-19-2 22-31 31" fill="#c4d28d"/>
+    <path d="M108 132q12-14 23-19" fill="none" stroke="#eef0bf" stroke-width="2"/>
+  </g>
+
+  <!-- Elemental companions -->
+  <g filter="url(#shadow)">
+    <!-- leaf sprite -->
+    <g transform="translate(790 408)">
+      <ellipse cx="40" cy="56" rx="41" ry="10" fill="#254941" opacity=".3"/>
+      <path d="M9 49Q0 19 31 4q28-13 48 10-1 34-34 46Q21 65 9 49Z" fill="#8fbd83"/>
+      <path d="M11 45 63 18Q51 49 25 56Z" fill="#6ba77a"/>
+      <path d="M29 36 42 29" stroke="#3e674e" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="34" cy="38" r="2.8" fill="#314744"/><circle cx="53" cy="29" r="2.8" fill="#314744"/>
+      <path d="M39 44q5 4 9-1" fill="none" stroke="#47634c" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- water sprite -->
+    <g transform="translate(1095 347)">
+      <ellipse cx="40" cy="72" rx="39" ry="9" fill="#254941" opacity=".25"/>
+      <path d="M40 1Q11 36 12 49a28 28 0 0 0 56 0C68 36 40 1 40 1Z" fill="#80c7c0"/>
+      <path d="M40 7q-20 34-18 43 2 14 14 16-11-18 4-59Z" fill="#b4e3d2" opacity=".75"/>
+      <circle cx="31" cy="48" r="3" fill="#355159"/><circle cx="49" cy="48" r="3" fill="#355159"/>
+      <path d="M36 57q5 4 9 0" fill="none" stroke="#477782" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <!-- firefly / ember sprite -->
+    <g transform="translate(1010 294)">
+      <circle cx="31" cy="30" r="35" fill="#ffc77b" opacity=".28" filter="url(#softGlow)"/>
+      <path d="M31 4q-7 12-4 18-13-5-18 8-5 15 11 22 19 9 33-5 12-12 1-27-3 15-12 13 3-14-11-29Z" fill="#f5ac69"/>
+      <path d="M30 19q-4 9 1 13-9-3-12 7-2 8 9 11 11 3 17-6 4-8-4-14-1 8-7 8 3-8-4-19Z" fill="#ffe1a0"/>
+      <circle cx="27" cy="36" r="2" fill="#704c4b"/><circle cx="39" cy="36" r="2" fill="#704c4b"/>
+      <path d="M31 42q3 3 6 0" fill="none" stroke="#9e6156" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Foreground grasses and small blooms -->
+  <g stroke-linecap="round">
+    <path d="M727 531q-13-34-9-57m9 57q11-42 30-53m-30 53q-1-27-22-37" fill="none" stroke="#9ab17c" stroke-width="5"/>
+    <path d="M1172 555q-10-37-4-62m4 62q15-36 33-43m-33 43q-1-25-20-31" fill="none" stroke="#a4bd87" stroke-width="5"/>
+    <path d="M154 553q-8-30-4-51m4 51q12-29 26-35" fill="none" stroke="#7ea071" stroke-width="4"/>
+  </g>
+  <g fill="#f5d398">
+    <circle cx="745" cy="479" r="4"/><circle cx="754" cy="475" r="3"/><circle cx="1168" cy="490" r="4"/>
+    <circle cx="1180" cy="487" r="3"/><circle cx="174" cy="517" r="3"/>
+  </g>
+  <path d="M0 566q210-23 412 0t409-1q208-23 399 1t380-4v38H0Z" fill="#203f3f" opacity=".42"/>
+</svg>

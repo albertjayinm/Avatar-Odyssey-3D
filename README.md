@@ -1,5 +1,7 @@
 # Avatar Odyssey 3D
 
+![Avatar Odyssey 3D: a cozy creature adventure with elemental companions, lush biomes, and habitat crafting](./Avatar-Odyssey-3D-banner.svg)
+
 A cozy 3D creature-adventure game built with React and Three.js. Explore biomes, gather resources, befriend companions, complete quests, and decorate a habitat.
 
 ## Features
