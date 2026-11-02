@@ -1,6 +1,0 @@
-{
-  "name": "Pokopia 3D Adventure",
-  "description": "A cozy 3D single-player creature adventure game with biome levels, creature befriending, resource gathering, habitat decorating, and quests.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
